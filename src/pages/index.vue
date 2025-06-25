@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="container">
+  <div class="text-red-500 text-3xl">
     ces1
   </div>
 </template>
