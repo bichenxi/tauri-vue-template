@@ -4,6 +4,7 @@ import { setupLayouts } from 'virtual:generated-layouts'
 import { routes } from 'vue-router/auto-routes'
 import { createRouter, createWebHistory } from 'vue-router'
 import 'uno.css'
+import './styles/main.css'
 import { createPinia } from 'pinia'
 
 

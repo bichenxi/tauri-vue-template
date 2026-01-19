@@ -1,7 +1,7 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import home from './home/index.vue'
+</script>
 
 <template>
-  <div class="text-red-500 text-3xl">
-    ces1
-  </div>
+  <home />
 </template>

@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
-    "tauri": "tauri"
+    "tauri": "tauri",
+    "tauri:dev": "tauri dev"
   },
   "dependencies": {
     "@tauri-apps/api": "^2",
@@ -16,6 +17,8 @@
     "axios": "^1.10.0",
     "dayjs": "^1.11.13",
     "element-plus": "^2.10.2",
+    "markdown-it": "^14.1.0",
+    "ofetch": "^1.4.1",
     "pinia": "^3.0.3",
     "vue": "^3.5.13",
     "vue-router": "^4.5.1"
@@ -23,6 +26,8 @@
   "devDependencies": {
     "@iconify/vue": "^5.0.0",
     "@tauri-apps/cli": "^2",
+    "@types/markdown-it": "^14.1.2",
+    "@types/node": "^24.0.4",
     "@unocss/eslint-config": "^66.3.1",
     "@unocss/preset-legacy-compat": "^66.3.1",
     "@unocss/reset": "^66.3.1",

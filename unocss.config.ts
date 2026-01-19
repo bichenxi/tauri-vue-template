@@ -46,12 +46,8 @@ export default defineConfig({
   ],
   theme: {
     colors: {
-      'primary': 'var(--primary-color, blue)',
-      'bg-white': 'var(--bg-color, #fff)',
-      'bg-content': 'var(--bg-content-color, #f2f2f2)',
-      'bg-active': 'var(--bg-active-color, #f2f2f2)',
-      'active': 'var(--active-color, var(--primary-color))',
-      'text-black': 'var(--text-color, #000)',
+      'primary': '#1A00FF',
+      'secondary': '#8476FF',
     },
   },
   variants: [

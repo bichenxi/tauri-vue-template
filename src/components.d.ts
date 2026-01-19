@@ -8,6 +8,10 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
+    ChatLeftContainer: typeof import('./components/chat/leftContainer/index.vue')['default']
+    ChatLeftContainerChatLine: typeof import('./components/chat/leftContainer/chatLine.vue')['default']
+    ChatLeftContainerMessage: typeof import('./components/chat/leftContainer/message.vue')['default']
+    ChatRightContainer: typeof import('./components/chat/rightContainer/index.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }
